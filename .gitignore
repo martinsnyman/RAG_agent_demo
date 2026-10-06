@@ -1,0 +1,29 @@
+# --- Secrets: never commit real API keys ---
+.env
+.env.*
+!.env.example
+
+# --- Generated data (rebuilt on first run) ---
+chroma/
+cache/
+.gradio/
+
+# --- Source documents (bring your own PDF) ---
+data/*.pdf
+*.pdf
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
